@@ -1,32 +1,76 @@
-# Object files
+#Keil, egale and VS 2015 ignore 
+# Ignore list for Eagle, a PCB layout tool
+
+# Backup files
+*.s#?
+*.b#?
+*.l#?
+
+# Eagle project file
+# It contains a serial number and references to the file structure
+# on your computer.
+# comment the following line if you want to have your project file included.
+eagle.epf
+
+# CAM files
+*.$$$
+*.cmp
+*.ly2
+*.l15
+*.sol
+*.plc
+*.stc
+*.sts
+*.crc
+*.crs
+
+*.dri
+*.drl
+*.gpi
+*.pls
+
+*.drd
+*.drd.*
+
+*.info
+
+*.eps
+
+*.l#?
+*.s#?
+*.b#?
+*KD.lbr
+*.d
 *.o
-*.ko
-*.obj
-*.elf
+*.crf
 
-# Precompiled Headers
-*.gch
-*.pch
+#Ignore list for Keil
+*.axf
+*.htm
+*.Inp
+*.map
+*.tra
+*.dep
+*.__i
+*.crf
+*.d
+*.o
+*.lst
+*.lnp
+*.bak
+*.Vishwas
+*.bin
+*.fed
+*._2i
+*.l1p
+*.l2p
+*.iex
+.#*
+*.uvguix.*
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
+#ignore Visual studio file
+*/.vs/*
+*.sdf
+MM_sym/MM_sym/x64/
+*.ilk
+*.pdb

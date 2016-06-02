@@ -45,6 +45,7 @@ eagle.epf
 *.crf
 
 #Ignore list for Keil
+# http://www.keil.com/appnotes/files/apnt_279.pdf
 *.axf
 *.htm
 *.Inp
